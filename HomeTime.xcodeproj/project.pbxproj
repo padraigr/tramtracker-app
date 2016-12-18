@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		851927451AD49CAB005E2B37 /* Kiwi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851927441AD49CAB005E2B37 /* Kiwi.framework */; };
+		851927471AD49CCA005E2B37 /* Kiwi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851927441AD49CAB005E2B37 /* Kiwi.framework */; };
+		85DA3B121ABBD43200717938 /* DateFormatterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DA3B111ABBD43200717938 /* DateFormatterTest.swift */; };
+		C93940F61ACD16500050E0BF /* ViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 603548F986C2B7754FD74C72 /* ViewControllerSpec.m */; };
+		C95059751A9FD5210037720C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C95059741A9FD5210037720C /* main.m */; };
+		C95059781A9FD5210037720C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C95059771A9FD5210037720C /* AppDelegate.m */; };
+		C950597B1A9FD5210037720C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C950597A1A9FD5210037720C /* ViewController.m */; };
+		C950597E1A9FD5210037720C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C950597C1A9FD5210037720C /* Main.storyboard */; };
+		C95059801A9FD5210037720C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C950597F1A9FD5210037720C /* Images.xcassets */; };
+		C95059831A9FD5210037720C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C95059811A9FD5210037720C /* LaunchScreen.xib */; };
+		C950599A1AA02C120037720C /* DotNetDateConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95059991AA02C120037720C /* DotNetDateConverter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C95059891A9FD5210037720C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C95059671A9FD5210037720C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C950596E1A9FD5210037720C;
+			remoteInfo = HomeTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		603548F986C2B7754FD74C72 /* ViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerSpec.m; sourceTree = "<group>"; };
+		851927441AD49CAB005E2B37 /* Kiwi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Kiwi.framework; sourceTree = "<group>"; };
+		85DA3B0E1ABBD1C600717938 /* HomeTimeTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HomeTimeTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		85DA3B111ABBD43200717938 /* DateFormatterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatterTest.swift; sourceTree = "<group>"; };
+		C950596F1A9FD5210037720C /* HomeTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95059731A9FD5210037720C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C95059741A9FD5210037720C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C95059761A9FD5210037720C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C95059771A9FD5210037720C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C95059791A9FD5210037720C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C950597A1A9FD5210037720C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C950597D1A9FD5210037720C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C950597F1A9FD5210037720C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C95059821A9FD5210037720C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C95059881A9FD5210037720C /* HomeTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C950598D1A9FD5210037720C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C95059981AA02C120037720C /* HomeTime-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HomeTime-Bridging-Header.h"; sourceTree = "<group>"; };
+		C95059991AA02C120037720C /* DotNetDateConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotNetDateConverter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		851927461AD49CBF005E2B37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851927471AD49CCA005E2B37 /* Kiwi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C950596C1A9FD5210037720C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851927451AD49CAB005E2B37 /* Kiwi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57B3F23D9CB706D1FF0AD00C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				851927441AD49CAB005E2B37 /* Kiwi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C95059661A9FD5210037720C = {
+			isa = PBXGroup;
+			children = (
+				C95059711A9FD5210037720C /* HomeTime */,
+				C950598B1A9FD5210037720C /* HomeTimeTests */,
+				C95059701A9FD5210037720C /* Products */,
+				57B3F23D9CB706D1FF0AD00C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C95059701A9FD5210037720C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C950596F1A9FD5210037720C /* HomeTime.app */,
+				C95059881A9FD5210037720C /* HomeTimeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C95059711A9FD5210037720C /* HomeTime */ = {
+			isa = PBXGroup;
+			children = (
+				C95059721A9FD5210037720C /* Supporting Files */,
+				C95059761A9FD5210037720C /* AppDelegate.h */,
+				C95059771A9FD5210037720C /* AppDelegate.m */,
+				C95059791A9FD5210037720C /* ViewController.h */,
+				C950597A1A9FD5210037720C /* ViewController.m */,
+				C950597C1A9FD5210037720C /* Main.storyboard */,
+				C950597F1A9FD5210037720C /* Images.xcassets */,
+				C95059811A9FD5210037720C /* LaunchScreen.xib */,
+				C95059991AA02C120037720C /* DotNetDateConverter.swift */,
+			);
+			path = HomeTime;
+			sourceTree = "<group>";
+		};
+		C95059721A9FD5210037720C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C95059731A9FD5210037720C /* Info.plist */,
+				C95059741A9FD5210037720C /* main.m */,
+				C95059981AA02C120037720C /* HomeTime-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C950598B1A9FD5210037720C /* HomeTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C950598C1A9FD5210037720C /* Supporting Files */,
+				603548F986C2B7754FD74C72 /* ViewControllerSpec.m */,
+				85DA3B111ABBD43200717938 /* DateFormatterTest.swift */,
+			);
+			path = HomeTimeTests;
+			sourceTree = "<group>";
+		};
+		C950598C1A9FD5210037720C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C950598D1A9FD5210037720C /* Info.plist */,
+				85DA3B0E1ABBD1C600717938 /* HomeTimeTests-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C950596E1A9FD5210037720C /* HomeTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95059921A9FD5210037720C /* Build configuration list for PBXNativeTarget "HomeTime" */;
+			buildPhases = (
+				C950596B1A9FD5210037720C /* Sources */,
+				C950596C1A9FD5210037720C /* Frameworks */,
+				C950596D1A9FD5210037720C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeTime;
+			productName = HomeTime;
+			productReference = C950596F1A9FD5210037720C /* HomeTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C95059871A9FD5210037720C /* HomeTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95059951A9FD5210037720C /* Build configuration list for PBXNativeTarget "HomeTimeTests" */;
+			buildPhases = (
+				C95059841A9FD5210037720C /* Sources */,
+				C95059861A9FD5210037720C /* Resources */,
+				851927461AD49CBF005E2B37 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C950598A1A9FD5210037720C /* PBXTargetDependency */,
+			);
+			name = HomeTimeTests;
+			productName = HomeTimeTests;
+			productReference = C95059881A9FD5210037720C /* HomeTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C95059671A9FD5210037720C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = REA;
+				TargetAttributes = {
+					C950596E1A9FD5210037720C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					C95059871A9FD5210037720C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = C950596E1A9FD5210037720C;
+					};
+				};
+			};
+			buildConfigurationList = C950596A1A9FD5210037720C /* Build configuration list for PBXProject "HomeTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C95059661A9FD5210037720C;
+			productRefGroup = C95059701A9FD5210037720C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C950596E1A9FD5210037720C /* HomeTime */,
+				C95059871A9FD5210037720C /* HomeTimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C950596D1A9FD5210037720C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C950597E1A9FD5210037720C /* Main.storyboard in Resources */,
+				C95059831A9FD5210037720C /* LaunchScreen.xib in Resources */,
+				C95059801A9FD5210037720C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95059861A9FD5210037720C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C950596B1A9FD5210037720C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C950597B1A9FD5210037720C /* ViewController.m in Sources */,
+				C95059781A9FD5210037720C /* AppDelegate.m in Sources */,
+				C950599A1AA02C120037720C /* DotNetDateConverter.swift in Sources */,
+				C95059751A9FD5210037720C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95059841A9FD5210037720C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DA3B121ABBD43200717938 /* DateFormatterTest.swift in Sources */,
+				C93940F61ACD16500050E0BF /* ViewControllerSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C950598A1A9FD5210037720C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C950596E1A9FD5210037720C /* HomeTime */;
+			targetProxy = C95059891A9FD5210037720C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C950597C1A9FD5210037720C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C950597D1A9FD5210037720C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C95059811A9FD5210037720C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C95059821A9FD5210037720C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C95059901A9FD5210037720C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C95059911A9FD5210037720C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C95059931A9FD5210037720C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = HomeTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HomeTime/HomeTime-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C95059941A9FD5210037720C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = HomeTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HomeTime/HomeTime-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		C95059961A9FD5210037720C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HomeTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HomeTimeTests/HomeTimeTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeTime.app/HomeTime";
+			};
+			name = Debug;
+		};
+		C95059971A9FD5210037720C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = HomeTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HomeTimeTests/HomeTimeTests-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeTime.app/HomeTime";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C950596A1A9FD5210037720C /* Build configuration list for PBXProject "HomeTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95059901A9FD5210037720C /* Debug */,
+				C95059911A9FD5210037720C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95059921A9FD5210037720C /* Build configuration list for PBXNativeTarget "HomeTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95059931A9FD5210037720C /* Debug */,
+				C95059941A9FD5210037720C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95059951A9FD5210037720C /* Build configuration list for PBXNativeTarget "HomeTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95059961A9FD5210037720C /* Debug */,
+				C95059971A9FD5210037720C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C95059671A9FD5210037720C /* Project object */;
+}
