@@ -1,30 +1,71 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dcA-Qw-s8l">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16C48b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dcA-Qw-s8l">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Home Time Trams-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="viewController" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="viewController" id="BYZ-38-t0r" customClass="TramsViewController" customModule="HomeTime" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="jeG-34-fI5">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="jeG-34-fI5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TramCellIdentifier" id="VPq-5m-kPL">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TramCell" id="VPq-5m-kPL" customClass="TramCell" customModule="HomeTime" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="22" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VPq-5m-kPL" id="adQ-vG-zrF">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="78" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O2V-XV-RZx">
+                                                    <rect key="frame" x="8" y="11.5" width="20" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Route" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i0L-lN-AqU">
+                                                    <rect key="frame" x="36" y="11.5" width="45" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 mins" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="002-aZ-CgV">
+                                                    <rect key="frame" x="306" y="12" width="51" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="O2V-XV-RZx" firstAttribute="leading" secondItem="adQ-vG-zrF" secondAttribute="leadingMargin" id="7EZ-6L-ZGw"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="002-aZ-CgV" secondAttribute="trailing" constant="10" id="7dg-XI-Gah"/>
+                                                <constraint firstItem="O2V-XV-RZx" firstAttribute="centerY" secondItem="adQ-vG-zrF" secondAttribute="centerY" id="dvQ-NO-JK7"/>
+                                                <constraint firstItem="002-aZ-CgV" firstAttribute="centerY" secondItem="adQ-vG-zrF" secondAttribute="centerY" id="nwF-as-z7X"/>
+                                                <constraint firstItem="i0L-lN-AqU" firstAttribute="leading" secondItem="O2V-XV-RZx" secondAttribute="trailing" constant="8" id="xpz-Rp-1Zr"/>
+                                                <constraint firstItem="i0L-lN-AqU" firstAttribute="centerY" secondItem="adQ-vG-zrF" secondAttribute="centerY" id="y88-Ng-a2M"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="minutesLabel" destination="002-aZ-CgV" id="722-Ta-A2v"/>
+                                            <outlet property="tramDestinationLabel" destination="i0L-lN-AqU" id="MgL-PH-hkk"/>
+                                            <outlet property="tramNumberLabel" destination="O2V-XV-RZx" id="knw-Y8-p3m"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -33,27 +74,33 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jeG-34-fI5" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Pfu-w7-dcX"/>
+                            <constraint firstAttribute="trailing" secondItem="jeG-34-fI5" secondAttribute="trailing" id="eeV-WZ-XXa"/>
+                            <constraint firstItem="jeG-34-fI5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pCs-jA-MzR"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jeG-34-fI5" secondAttribute="bottom" id="sM4-0d-qeq"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Home Time Trams" id="hvr-XL-TGe">
                         <barButtonItem key="leftBarButtonItem" title="Clear" id="7tJ-hH-laH">
                             <connections>
-                                <action selector="clearButtonTapped:" destination="BYZ-38-t0r" id="gXQ-YA-Rli"/>
+                                <action selector="clearTapped:" destination="BYZ-38-t0r" id="CCV-2s-iR1"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Load" id="uUb-4D-zvc">
                             <connections>
-                                <action selector="loadButtonTapped:" destination="BYZ-38-t0r" id="okQ-9M-Shb"/>
+                                <action selector="loadTapped:" destination="BYZ-38-t0r" id="xkX-8M-hQg"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="tramTimesTable" destination="jeG-34-fI5" id="xkl-JQ-QEh"/>
+                        <outlet property="tableView" destination="jeG-34-fI5" id="geC-g4-oDJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1152" y="387"/>
+            <point key="canvasLocation" x="1225" y="-306"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="22L-9q-eS8">

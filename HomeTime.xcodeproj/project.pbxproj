@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A8C6ED11E09327C00490B5B /* TramCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8C6ED01E09327C00490B5B /* TramCell.swift */; };
+		1AAF37F61E09520D00EA3BB1 /* BrightFutures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAF37F41E09520D00EA3BB1 /* BrightFutures.framework */; };
+		1AAF37F71E09520D00EA3BB1 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAF37F51E09520D00EA3BB1 /* Result.framework */; };
+		1AAF37FA1E09572300EA3BB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAF37F91E09572300EA3BB1 /* AppDelegate.swift */; };
+		1AEB772E1E06174300E41697 /* TramsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEB772D1E06174300E41697 /* TramsViewController.swift */; };
+		1AEB77301E06176A00E41697 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEB772F1E06176A00E41697 /* NetworkManager.swift */; };
+		1AEB77321E06178100E41697 /* Tram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEB77311E06178100E41697 /* Tram.swift */; };
 		851927451AD49CAB005E2B37 /* Kiwi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851927441AD49CAB005E2B37 /* Kiwi.framework */; };
 		851927471AD49CCA005E2B37 /* Kiwi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851927441AD49CAB005E2B37 /* Kiwi.framework */; };
 		85DA3B121ABBD43200717938 /* DateFormatterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DA3B111ABBD43200717938 /* DateFormatterTest.swift */; };
 		C93940F61ACD16500050E0BF /* ViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 603548F986C2B7754FD74C72 /* ViewControllerSpec.m */; };
-		C95059751A9FD5210037720C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C95059741A9FD5210037720C /* main.m */; };
-		C95059781A9FD5210037720C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C95059771A9FD5210037720C /* AppDelegate.m */; };
-		C950597B1A9FD5210037720C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C950597A1A9FD5210037720C /* ViewController.m */; };
 		C950597E1A9FD5210037720C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C950597C1A9FD5210037720C /* Main.storyboard */; };
 		C95059801A9FD5210037720C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C950597F1A9FD5210037720C /* Images.xcassets */; };
 		C95059831A9FD5210037720C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C95059811A9FD5210037720C /* LaunchScreen.xib */; };
-		C950599A1AA02C120037720C /* DotNetDateConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95059991AA02C120037720C /* DotNetDateConverter.swift */; };
+		C950599A1AA02C120037720C /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95059991AA02C120037720C /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,24 +35,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A8C6ED01E09327C00490B5B /* TramCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TramCell.swift; sourceTree = "<group>"; };
+		1AAF37F41E09520D00EA3BB1 /* BrightFutures.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BrightFutures.framework; path = Carthage/Build/iOS/BrightFutures.framework; sourceTree = "<group>"; };
+		1AAF37F51E09520D00EA3BB1 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		1AAF37F91E09572300EA3BB1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AB80A8A1E094BAE00010107 /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Headers; path = HomeTime/Frameworks/BrightFutures.framework/Headers; sourceTree = "<group>"; };
+		1AEB772D1E06174300E41697 /* TramsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TramsViewController.swift; sourceTree = "<group>"; };
+		1AEB772F1E06176A00E41697 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1AEB77311E06178100E41697 /* Tram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tram.swift; sourceTree = "<group>"; };
 		603548F986C2B7754FD74C72 /* ViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerSpec.m; sourceTree = "<group>"; };
 		851927441AD49CAB005E2B37 /* Kiwi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Kiwi.framework; sourceTree = "<group>"; };
 		85DA3B0E1ABBD1C600717938 /* HomeTimeTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HomeTimeTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		85DA3B111ABBD43200717938 /* DateFormatterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatterTest.swift; sourceTree = "<group>"; };
 		C950596F1A9FD5210037720C /* HomeTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95059731A9FD5210037720C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C95059741A9FD5210037720C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C95059761A9FD5210037720C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C95059771A9FD5210037720C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C95059791A9FD5210037720C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C950597A1A9FD5210037720C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C950597D1A9FD5210037720C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C950597F1A9FD5210037720C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C95059821A9FD5210037720C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C95059881A9FD5210037720C /* HomeTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C950598D1A9FD5210037720C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C95059981AA02C120037720C /* HomeTime-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HomeTime-Bridging-Header.h"; sourceTree = "<group>"; };
-		C95059991AA02C120037720C /* DotNetDateConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotNetDateConverter.swift; sourceTree = "<group>"; };
+		C95059991AA02C120037720C /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AAF37F71E09520D00EA3BB1 /* Result.framework in Frameworks */,
 				851927451AD49CAB005E2B37 /* Kiwi.framework in Frameworks */,
+				1AAF37F61E09520D00EA3BB1 /* BrightFutures.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +82,9 @@
 		57B3F23D9CB706D1FF0AD00C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1AB80A8A1E094BAE00010107 /* Headers */,
+				1AAF37F41E09520D00EA3BB1 /* BrightFutures.framework */,
+				1AAF37F51E09520D00EA3BB1 /* Result.framework */,
 				851927441AD49CAB005E2B37 /* Kiwi.framework */,
 			);
 			name = Frameworks;
@@ -102,14 +113,15 @@
 			isa = PBXGroup;
 			children = (
 				C95059721A9FD5210037720C /* Supporting Files */,
-				C95059761A9FD5210037720C /* AppDelegate.h */,
-				C95059771A9FD5210037720C /* AppDelegate.m */,
-				C95059791A9FD5210037720C /* ViewController.h */,
-				C950597A1A9FD5210037720C /* ViewController.m */,
+				1AAF37F91E09572300EA3BB1 /* AppDelegate.swift */,
 				C950597C1A9FD5210037720C /* Main.storyboard */,
 				C950597F1A9FD5210037720C /* Images.xcassets */,
 				C95059811A9FD5210037720C /* LaunchScreen.xib */,
-				C95059991AA02C120037720C /* DotNetDateConverter.swift */,
+				C95059991AA02C120037720C /* String+Extension.swift */,
+				1AEB772D1E06174300E41697 /* TramsViewController.swift */,
+				1AEB772F1E06176A00E41697 /* NetworkManager.swift */,
+				1AEB77311E06178100E41697 /* Tram.swift */,
+				1A8C6ED01E09327C00490B5B /* TramCell.swift */,
 			);
 			path = HomeTime;
 			sourceTree = "<group>";
@@ -118,8 +130,6 @@
 			isa = PBXGroup;
 			children = (
 				C95059731A9FD5210037720C /* Info.plist */,
-				C95059741A9FD5210037720C /* main.m */,
-				C95059981AA02C120037720C /* HomeTime-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -153,6 +163,7 @@
 				C950596B1A9FD5210037720C /* Sources */,
 				C950596C1A9FD5210037720C /* Frameworks */,
 				C950596D1A9FD5210037720C /* Resources */,
+				1AAF37F81E09521500EA3BB1 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -187,11 +198,12 @@
 		C95059671A9FD5210037720C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = REA;
 				TargetAttributes = {
 					C950596E1A9FD5210037720C = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 3K93G2JP48;
 						LastSwiftMigration = 0810;
 					};
 					C95059871A9FD5210037720C = {
@@ -240,15 +252,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AAF37F81E09521500EA3BB1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/BrightFutures.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C950596B1A9FD5210037720C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C950597B1A9FD5210037720C /* ViewController.m in Sources */,
-				C95059781A9FD5210037720C /* AppDelegate.m in Sources */,
-				C950599A1AA02C120037720C /* DotNetDateConverter.swift in Sources */,
-				C95059751A9FD5210037720C /* main.m in Sources */,
+				1AAF37FA1E09572300EA3BB1 /* AppDelegate.swift in Sources */,
+				1AEB77301E06176A00E41697 /* NetworkManager.swift in Sources */,
+				1AEB77321E06178100E41697 /* Tram.swift in Sources */,
+				1AEB772E1E06174300E41697 /* TramsViewController.swift in Sources */,
+				1A8C6ED11E09327C00490B5B /* TramCell.swift in Sources */,
+				C950599A1AA02C120037720C /* String+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,15 +336,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -325,7 +361,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -346,8 +382,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -355,15 +393,17 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -375,14 +415,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3K93G2JP48;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/HomeTime/Frameworks",
 				);
 				INFOPLIST_FILE = HomeTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rea-group.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "HomeTime/HomeTime-Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -394,14 +439,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3K93G2JP48;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/HomeTime/Frameworks",
 				);
 				INFOPLIST_FILE = HomeTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rea-group.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "HomeTime/HomeTime-Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -428,6 +478,7 @@
 					XCTest,
 					"-ObjC",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rea-group.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "HomeTimeTests/HomeTimeTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -454,6 +505,7 @@
 					XCTest,
 					"-ObjC",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rea-group.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "HomeTimeTests/HomeTimeTests-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
